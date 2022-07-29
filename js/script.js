@@ -1,10 +1,14 @@
 var user = alert("error not 404!");
-var inrto = prompt("ismingiz", "shaxzod").trim;
-var inrto_1 = prompt("familiyangiz", "kamoxojayev") .trim;
-var inrto_2 = prompt("yoshingiz", "24") .trim;
-var inrto_3 = prompt("kasbingiz", "dasturchi") .trim;
-var inrto_4  = prompt("manzilingiz", "toshkent") .trim;
-var inrto_5 = confirm("rahmat!");
+var first_name = prompt("ismingiz", "shaxzod").trim();
+var last_name = prompt("familiyangiz", "kamoxojayev") .trim();
+var age = prompt("yoshingiz", "24") .trim();
+var Profession = prompt("kasbingiz", "dasturchi") .trim();
+var addres  = prompt("manzilingiz", "toshkent") .trim();
+var thenks = confirm("rahmat!");
 
-console.log("user malumotlari: " + " " + inrto + " " + inrto_1 + " " + inrto_2 + " " + inrto_3 + " "
- + inrto_4 + " " + inrto_5);
+console.log(`user malumotlari: 
+first_name: ${first_name}
+last_name: ${last_name}
+age: ${age}
+Profession: ${Profession} 
+addres:  ${addres}`);
